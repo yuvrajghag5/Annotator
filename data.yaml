@@ -1,0 +1,21 @@
+train: C:\Users\yuvra\Documents\auto annotate\dataset\train\images
+val: C:\Users\yuvra\Documents\auto annotate\dataset\valid\images
+test: C:\Users\yuvra\Documents\auto annotate\dataset\test\images
+
+nc: 80 #number of classes.
+
+names: ['airplane', 'apple', 'backpack', 'banana', 'baseball bat', 'baseball glove', 'bear', 'bed', 'bench', 'bicycle', 'bird', 'boat', 'book', 'bottle', 'bowl', 'broccoli', 'bus', 'cake', 'car', 'carrot', 'cat', 'cell phone', 'chair', 'clock', 'couch', 'cow', 'cup', 'dining table', 'dog', 'donut', 'elephant', 'fire hydrant', 'fork', 'frisbee', 'giraffe', 'hair drier', 'handbag', 'horse', 'hot dog', 'keyboard', 'kite', 'knife', 'laptop', 'microwave', 'motorcycle', 'mouse', 'orange', 'oven', 'parking meter', 'person', 'pizza', 'potted plant', 'refrigerator', 'remote', 'sandwich', 'scissors', 'sheep', 'sink', 'skateboard', 'skis', 'snowboard', 'spoon', 'sports ball', 'stop sign', 'suitcase', 'surfboard', 'teddy bear', 'tennis racket', 'tie', 'toaster', 'toilet', 'toothbrush', 'traffic light', 'train', 'truck', 'tv', 'umbrella', 'vase', 'wine glass', 'zebra']
+
+
+
+augment: true
+mosaic: 1.0
+hsv_h: 0.015
+hsv_s: 0.7
+hsv_v: 0.4
+flipud: 0.0
+fliplr: 0.5
+degrees: 0.0
+translate: 0.1
+scale: 0.5
+shear: 0.0
