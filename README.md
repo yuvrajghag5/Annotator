@@ -1,1 +1,1 @@
-# Annotator
+# Annotator YOLO11
